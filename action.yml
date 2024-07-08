@@ -1,0 +1,16 @@
+name: Template GitHub Action
+description: Description of the action
+author: Author Name
+inputs:
+  input1:
+    description:
+    required: false
+    default: 'default value'
+outputs:
+  output1:
+    description: Description of output1
+  output2:
+    description: Description of output2
+runs:
+  using: 'node20'
+  main: 'index.js'
