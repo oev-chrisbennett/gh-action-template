@@ -6,7 +6,8 @@
     "vcs": {
         "enabled": true,
         "clientKind": "git",
-        "defaultBranch": "main"
+        "defaultBranch": "main",
+        "useIgnoreFile": true
     },
     "linter": {
         "enabled": true,
@@ -31,5 +32,8 @@
         "formatter": {
             "enabled": true
         }
+    },
+    "files": {
+        "ignore": ["node_modules", "dist"]
     }
 }
