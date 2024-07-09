@@ -2,6 +2,7 @@
     "name": "gh-action-template",
     "version": "0.0.2",
     "main": "dist/index.js",
+    "type": "module",
     "scripts": {
         "build": "bun build --entrypoints ./src/index.ts --outdir ./dist --target bun",
         "check": "biome check . --fix",
