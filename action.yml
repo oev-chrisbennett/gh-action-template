@@ -5,12 +5,10 @@ inputs:
   input1:
     description:
     required: false
-    default: 'default value'
+    default: "default value"
 outputs:
-  output1:
-    description: Description of output1
-  output2:
-    description: Description of output2
+  pr-title:
+    description: The PR title
 runs:
-  using: 'node20'
-  main: 'index.js'
+  using: "node20"
+  main: "index.js"
