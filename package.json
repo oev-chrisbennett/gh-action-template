@@ -4,7 +4,8 @@
     "main": "dist/index.js",
     "scripts": {
         "build": "bun build --entrypoints ./src/index.ts --outdir ./dist --target bun",
-        "check": "biome check . --fix"
+        "check": "biome check . --fix",
+        "postinstall": "lefthook install"
     },
     "dependencies": {},
     "devDependencies": {
